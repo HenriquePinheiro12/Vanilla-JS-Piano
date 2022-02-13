@@ -11,7 +11,7 @@ function playNote(event) {
   // if key exists
   const cantFoundAnyKey = !key
 
-  if(cantFoundAnyKey) {
+  if(!key) {
     return;
   }
 
